@@ -13,6 +13,11 @@ let roverOne = {
     positionY: 9,
     travelLog: []
   }
+  
+  let rock = {
+    description: "nothing, this is just a rock"
+  }
+
   let mars =  [
     [null, null, rock, null, null, null, null, null, null, roverTwo],
     [null, null, null, null, null, null, null, null, null, null],
