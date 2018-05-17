@@ -14,16 +14,16 @@ let roverOne = {
     travelLog: []
   }
   let mars =  [
+    [null, null, rock, null, null, null, null, null, null, roverTwo],
+    [null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, rock, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, rock, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null],
+    [null, rock, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null, null],
     [roverOne, null, null, null, null, null, null, null, null, null],
-    [null, null, null, null, null, null, null, null, null, null],
-    [null, null, null, null, null, null, null, null, null, null],
-    [null, null, null, null, null, null, null, null, null, null],
-    [null, null, null, null, null, null, null, null, null, null],
-    [null, null, null, null, null, null, null, null, null, null],
-    [null, null, null, null, null, null, null, null, null, null],
-    [null, null, null, null, null, null, null, null, null, null],
-    [null, null, null, null, null, null, null, null, null, null],
-    [null, null, null, null, null, null, null, null, null, roverTwo],
   ]
   
   //function used to know if the next space in array is empty to move into
