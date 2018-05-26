@@ -256,23 +256,23 @@ let roverOne = {
   // function used to receive an string of movements orders and execute them
   // one after the other in case you set a wrong order it will set up an alert
   // warning about the wrong orders
-  function movementChain(movement, rover){
+  function movementChain(movement, rover, mars){
     let order;
     if(validateInput(movement)){
       for(let i=0; i<movement.length; i++){
         order = movement.charAt(i);
         switch(order){
           case 'f':
-            moveForward(rover);
+            moveForward(rover, mars);
             break;
           case 'l':
-            turnLeft(rover);
+            turnLeft(rover, mars);
             break;
           case 'r':
-            turnRight(rover);
+            turnRight(rover, mars);
             break;
           case 'b':
-            moveBackward(rover);
+            moveBackward(rover, mars);
             break;
         }
       }
@@ -280,4 +280,3 @@ let roverOne = {
       alert('WRONG ORDERS!');
     }
   }
-  
