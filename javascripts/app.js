@@ -1,4 +1,3 @@
-
 // Definition of objects, in this case Mars a bidimensional 
 // array of elements and two Rovers
 let roverOne = {
@@ -230,7 +229,7 @@ let roverOne = {
   
   // function used to push your actual position into the travel log array
   function logPosition(rover){
-    let position=rover.positionX+","+rover.positionY;
+    let position=(rover.positionX+","+rover.positionY);
     rover.travelLog.push(position);
     console.log('Position of Rover is: ', rover.positionX, rover.positionY);
   }
@@ -276,6 +275,7 @@ let roverOne = {
             break;
         }
       }
+    console.log('You have travelled to these positions', rover.travelLog);
     } else {
       alert('WRONG ORDERS!');
     }
